@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,400i,700|Lato:100,300,400,400i,700,900|Open+Sans:300,300i,400,600,700,800|Yeseva+One&display=swap');
+/* =========================================
+                Google Fonts
+   ========================================= */
+*{
+  margin: 0px;
+  padding: 0px;
+  outline: 0px;
+}
+body{
+  font-family: 'Gentium Book Basic', serif;
+  font-family: 'Yeseva One', cursive;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+ul,ol,li{
+  list-style: none;
+}
+a,a:hover{
+  text-decoration: none;
+}
+img{
+  vertical-align: middle;
+  outline: none;
+}
+h1,h2,h3,h4,h5,h6,p,a,ul,li,ol,img{
+  font-family: 'Gentium Book Basic', serif;
+  font-family: 'Lato', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Yeseva One', cursive;
+}
+
+  /* =========================================
+                Common CSS
+   ========================================= */
+.header-part{
+  background-image: url(../img/Banner-slider.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.navbar .navbar-nav{}
+.navbar-nav .nav-item{}
+.navbar-nav .nav-item .nav-link{
+  color: #ffffff ! important;
+  font-size: 21px;
+  font-weight: 700;
+  /*padding-right: 20px;*/
+  margin-left: 15px;
+  font-family: 'Gentium Book Basic', serif;
+}
+/*.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item. .nav-link:hover{
+  border-top: 15px;
+  background: #fff ! important;
+}*/
+.nav-icons ul{
+  margin: 5px 0px;
+}
+.nav-icons ul li{
+  margin-left: 5px;
+}
+.nav-icons ul li a{
+  color: #dab33e;
+  font-size: 21px;
+  margin-left: 20px;
+}
+.slider-content h1{
+  color: #f3f3f3;
+  /*font-size: 90px;*/
+  font-size: 80px;
+  padding-top: 138px;
+}
+.slider-logo img{
+  padding-top: 34px;
+}
+.slider-btn{
+  padding-top: 34px;
+  padding-bottom: 142px;
+}
+.slider-btn .btn-1{
+  padding: 21px 51px;
+  background: rgba(29, 31, 31, 0.7);
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  margin-right: 30px;
+  border: 1px solid #000;
+  transition: all linear .3s;
+}
+.slider-btn .btn-1:hover{
+  background: rgba(196, 181, 120, 0.5);
+  color: #ffffff;
+}
+.slider-btn .btn-2{
+  padding: 21px 51px;
+  background: rgba(196, 181, 120, 0.5);
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 30px;
+  border: 1px solid #ffffff;
+  transition: all linear .3s;
+}
+.slider-btn .btn-2:hover{
+  background: rgba(29, 31, 31, 0.7);
+  color: #ffffff;
+}
+   /* =========================================
+            Header or Slider Part End  
+   ========================================= */
+.about-part{
+  padding: 74px 0px 85px;
+  background: url(../img/about-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+.ab-heading h2{
+  padding-top: 40px;
+  color: #cc9900;
+  font-size: 36px;
+}
+.ab-logo img{
+  padding-top: 15px;
+  padding-bottom: 32px;
+}
+.ab-content p{
+  font-size: 16px;
+  color: #5d5d5d;
+  word-spacing: 1px;
+}
+.ab-cook img{
+  padding-top: 35px;
+  margin-left: 75px;
+}
+   /* =========================================
+                  About Part End
+   ========================================= */
+.ingredient-part{
+  background: url(../img/ingradient-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0px;
+}
+.bg-ingredient{
+  height: 565px;
+  width: 565px;
+  background: rgba(0, 0, 0, 0.5);
+}
+.ing-heading h3{
+  color: #ffffff;
+  font-size: 36px;
+  padding-top: 80px;
+}
+.ing-logo img{
+  padding-top: 16px;
+}
+.ing-content p{
+  color: #ffffff;
+  font-size: 16px;
+  padding-top: 30px;
+}
+.ing-images{
+  padding-top: 50px;
+  margin-left: 25px;
+}
+.ing-images ul{
+  padding: 0px 35px;
+}
+.ing-images ul li img{
+  margin-left: 30px;
+}
+   /* =========================================
+              Ingresients Part End
+   ========================================= */
+.menu-part{
+  background: url(../img/menu-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 107px 0px 98px;
+}
+.menu-heading h3{
+  color: #cc9900;
+  font-size: 36px;
+}
+.menu-items{
+  margin-left: 35px;
+}
+.menu-items .menu-item{
+  padding-top: 30px;
+}
+.menu-items .menu-item h4{
+  color: #cc9900;
+  font-size: 21px;
+}
+.menu-items .menu-item h4 span{
+  margin-left: 293px;
+}
+.horigental{
+  border-top: 1px solid rgba(204, 153, 0, 0.5);
+  margin-left: -1px;
+  margin-right: 60px;
+  padding-top: 11px;
+}
+.menu-item p{
+  color: #5b5c5c;
+  font-size: 16px;
+}
+
+   /* =========================================
+              Menu Part End
+   ========================================= */
+.review-part{
+  background: url(../img/review-banner.jpg);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0px;
+}
+.review-bg{
+  height: 555px;
+  width: 770px;
+  background: rgba(0, 0, 0, 0.7);
+  margin-left: 180px;
+}
+.review-heading h5{
+  color: #ffffff;
+  font-size: 36px;
+  padding-top: 82px;
+}
+.review-content p{
+  font-size: 25px;
+  color: #ffffff;
+  padding-top: 28px;
+  font-weight: 400 italic;
+  font-family: 'Lato', sans-serif;
+}
+.review-con{
+  padding-top: 45px;
+  font-size: 18px;
+}
+   /* =========================================
+                  Review Part End
+   ========================================= */
+.reservation-part{
+  background: url(../img/about-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0px;
+}
+.reservation-img2 img{
+  margin-left: 30px;
+}
+.reservation-heading h2{
+  margin-top: -8px;
+  color: #cc9900;
+  font-size: 36px;
+  margin-left: 145px;
+}
+.reservation-logo img{
+  padding-top: 15px;
+  padding-bottom: 32px;
+  margin-left: 145px;
+}
+.reservation-content{
+  margin-left: 125px;
+}
+.reservation-content .res-con1{
+  color: #4c4c4c;
+  font-size: 16px;
+  font-weight: 400;
+}
+.reservation-content .res-con2{
+  color: #4c4c4c;
+  font-size: 16px;
+  font-weight: 400;
+}
+   /* =========================================
+                Reservation Part End
+   ========================================= */
+.footer-part{
+  background: #191919;
+  padding: 60px 0px 70px;
+}
+.footer-heading h6{
+  color: #fefefe;
+  font-size: 21px;
+}
+.footer-logo img{
+  padding: 21px 0px;
+}
+.footer-content p{
+  color: #f4f4f4;
+  font-size: 16px;
+}
+.footer-content p span{
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+}
+.payment img{
+  padding-top: 40px;
+}
+.footer-icons ul{
+  margin-left: 125px;
+  padding-top: 35px;
+}
+.footer-icons ul li{
+  margin-left:11px; 
+}
+.footer-icons ul li a{
+  color: #ffffff;
+}
+.footer-icons ul li a i{}
+   /* =========================================
+                Footer Part End
+   ========================================= */
+
+
+
